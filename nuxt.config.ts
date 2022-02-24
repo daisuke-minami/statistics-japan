@@ -20,7 +20,9 @@ require('dotenv').config()
 const routes = JSON.parse(fs.readFileSync('assets/json/routes.json'))
 
 const config: NuxtConfig = {
-  target: 'static',
+  ssr: true,
+  target: 'server',
+  // target: 'static',
   /*
    ** Headers of the page
    */
