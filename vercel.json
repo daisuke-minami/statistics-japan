@@ -30,7 +30,7 @@
         {
             "src": "/(.*)",
             "headers": {
-                "cache-control": "s-maxage=1, stale-while-revalidate "
+                "cache-control": "s-maxage=0, stale-while-revalidate "
             },
             "dest": "/"
         }
