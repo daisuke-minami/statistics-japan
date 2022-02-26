@@ -3718,7 +3718,7 @@
     "domhandler" "^4.2.0"
     "domutils" "^2.7.0"
 
-"cheerio@^1.0.0-rc.10", "cheerio@^1.0.0-rc.3":
+"cheerio@^1.0.0-rc.3":
   "integrity" "sha512-g0J0q/O6mW8z5zxQ3A8E8J1hUgp4SMOvEoW/x84OwyHKe/Zccz83PVT4y5Crcr530FV6NgmKI1qvGTKVl9XXVw=="
   "resolved" "https://registry.npmjs.org/cheerio/-/cheerio-1.0.0-rc.10.tgz"
   "version" "1.0.0-rc.10"
