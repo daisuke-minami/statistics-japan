@@ -147,7 +147,7 @@ const config: NuxtConfig = {
    ** Nuxt.js modules
    */
   modules: [
-    '@nuxtjs/markdownit',
+    // '@nuxtjs/markdownit',
     '@nuxtjs/pwa',
     ['@nuxtjs/dotenv', { filename: `.env.${environment}` }],
     'nuxt-svg-loader',
