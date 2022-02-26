@@ -1738,11 +1738,6 @@
   dependencies:
     "vue-analytics" "^5.22.1"
 
-"@nuxtjs/google-gtag@^1.0.4":
-  "integrity" "sha512-0Xgbx1uQ9pKeV2QdU9xoxJVdgH66qyGQJ0l8pzVxz5X476qvJunj6fbcjWk0gT+MEX/VOAhfT/zw0Z1z9q9oNg=="
-  "resolved" "https://registry.npmjs.org/@nuxtjs/google-gtag/-/google-gtag-1.0.4.tgz"
-  "version" "1.0.4"
-
 "@nuxtjs/gtm@2.4.0":
   "integrity" "sha512-Of5KuBBFwRjyJ6AuRrIQsh8J6ksIN2UegJDE8nBiTAanbwQBsAJ0hZibV9SjhKdGvGvWpbShQ4yR2bmQgY6XKA=="
   "resolved" "https://registry.npmjs.org/@nuxtjs/gtm/-/gtm-2.4.0.tgz"
@@ -3067,11 +3062,6 @@
   "integrity" "sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA=="
   "resolved" "https://registry.npmjs.org/aws4/-/aws4-1.11.0.tgz"
   "version" "1.11.0"
-
-"axe-core@4.1.1":
-  "integrity" "sha512-5Kgy8Cz6LPC9DJcNb3yjAXTu3XihQgEdnIg50c//zOC/MyLP0Clg+Y8Sh9ZjjnvBrDZU4DgXS9C3T9r4/scGZQ=="
-  "resolved" "https://registry.npmjs.org/axe-core/-/axe-core-4.1.1.tgz"
-  "version" "4.1.1"
 
 "axios-retry@^3.1.9":
   "integrity" "sha512-NFCoNIHq8lYkJa6ku4m+V1837TP6lCa7n79Iuf8/AqATAHYB0ISaAS1eyIenDOfHOLtym34W65Sjke2xjg2fsA=="
@@ -6419,11 +6409,6 @@
   "resolved" "https://registry.npmjs.org/highcharts/-/highcharts-9.2.2.tgz"
   "version" "9.2.2"
 
-"highlight.js@^10.1.2":
-  "integrity" "sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A=="
-  "resolved" "https://registry.npmjs.org/highlight.js/-/highlight.js-10.7.3.tgz"
-  "version" "10.7.3"
-
 "hmac-drbg@^1.0.1":
   "integrity" "sha1-0nRXAQJabHdabFRXk+1QL8DGSaE="
   "resolved" "https://registry.npmjs.org/hmac-drbg/-/hmac-drbg-1.0.1.tgz"
@@ -8639,13 +8624,6 @@
     "lodash" "^4.17.15"
     "meow" "^6.0.0"
     "uuid" "^3.4.0"
-
-"nuxt-highlightjs@^1.0.1":
-  "integrity" "sha512-T3GHysg8c3EBkTL4mj6NftsiYo/FBID1/XWgprT3+RHX7pBhl4Spbc2yygp4z/OBEvgs868Qg5FIkIsCBS+iPg=="
-  "resolved" "https://registry.npmjs.org/nuxt-highlightjs/-/nuxt-highlightjs-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "highlight.js" "^10.1.2"
 
 "nuxt-leaflet@^0.0.25":
   "integrity" "sha512-R/XWs/kQOat+sgAggQk7llmgPXLWWCwDs7Z7N7y1XNc0cKW5Phc+wfBxNvuYS0tQ+UuS9CtNOSxhLJEBXl1wjQ=="
@@ -12893,7 +12871,7 @@
   "resolved" "https://registry.npmjs.org/vuex-module-decorators/-/vuex-module-decorators-1.0.1.tgz"
   "version" "1.0.1"
 
-"vuex@^3.0.0", "vuex@^3.6.0", "vuex@^3.6.2", "vuex@3":
+"vuex@^3.0.0", "vuex@^3.6.2", "vuex@3":
   "integrity" "sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw=="
   "resolved" "https://registry.npmjs.org/vuex/-/vuex-3.6.2.tgz"
   "version" "3.6.2"

@@ -147,7 +147,6 @@ const config: NuxtConfig = {
    ** Nuxt.js modules
    */
   modules: [
-    // '@nuxtjs/markdownit',
     '@nuxtjs/pwa',
     ['@nuxtjs/dotenv', { filename: `.env.${environment}` }],
     'nuxt-svg-loader',
@@ -157,8 +156,6 @@ const config: NuxtConfig = {
     '@nuxtjs/proxy',
     'nuxt-leaflet',
     '@nuxtjs/sitemap',
-    // ['@nuxtjs/google-adsense', { id: 'ca-pub-4511811306180988' }],
-    ['@nuxtjs/google-gtag'],
     ['nuxt-canonical', { baseUrl: 'https://statistics-hyogo.com' }],
   ],
   sitemap: {
@@ -251,14 +248,14 @@ const config: NuxtConfig = {
     start_url: '/',
     splash_pages: null,
   },
-  generate: {
-    interval: 50,
-    crawler: false,
-    concurrency: 10,
-    routes() {
-      return routes
-    },
-  },
+  // generate: {
+  //   interval: 50,
+  //   crawler: false,
+  //   concurrency: 10,
+  //   routes() {
+  //     return routes
+  //   },
+  // },
   // /*
   // ** hot read configuration for docker
   // */
@@ -279,10 +276,10 @@ const config: NuxtConfig = {
   router: {
     // middleware: 'vuex',
   },
-  markdownit: {
-    injected: true,
-    breaks: true,
-  },
+  // markdownit: {
+  //   injected: true,
+  //   breaks: true,
+  // },
   components: [
     {
       path: '@/components/',
